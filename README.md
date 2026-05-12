@@ -1,4 +1,4 @@
-#  HOUGH TRANSFORMATION
+#  Exp 7 - HOUGH TRANSFORMATION
 ## Name: Ashwath M
 ## Register number: 212223230023
 
