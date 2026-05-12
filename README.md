@@ -1,6 +1,6 @@
 #  HOUGH TRANSFORMATION
-## Ashwath M
-## 212223230023
+## Name: Ashwath M
+## Register number: 212223230023
 
 ##  Aim
 
@@ -20,18 +20,23 @@ To implement a basic lane detection pipeline using OpenCV by completing missing 
 ##  Algorithm & Explanation
 
 Step1:
+
 Import all the necessary modules for the program.
 
 Step2:
+
 Load a image using imread() from cv2 module.
 
 Step3:
+
 Convert the image to grayscale.
 
 Step4:
+
 Using Canny operator from cv2,detect the edges of the image.
 
 Step5:
+
 Using the HoughLinesP(),detect line co-ordinates for every points in the images.Using For loop,draw the lines on the found co-ordinates.Display the image.
 
 Output
@@ -162,25 +167,26 @@ plt.figure(figsize = (15, 10)); plt.imshow(hough);
 
 ##  Expected Output
 
-* Original image
+### Original image:
+
  <img width="499" height="288" alt="image" src="https://github.com/user-attachments/assets/afdfe4ca-8ae9-45c6-9690-b16c71b323c6" />
 
-* Grayscale image
+### Grayscale image:
   <img width="518" height="306" alt="image" src="https://github.com/user-attachments/assets/03224aef-8951-4cc3-85f2-46cbfaaa7f2b" />
 
-* Thresholded image
+### Thresholded image:
   <img width="1239" height="741" alt="image" src="https://github.com/user-attachments/assets/c044c3f5-cf6a-4384-9db0-0684ee3cb635" />
 
-* ROI masked image
+### ROI masked image:
   <img width="1254" height="265" alt="image" src="https://github.com/user-attachments/assets/2c6ef110-d2c5-4048-a347-ee74b2205eea" />
 
-* Edge detected image
+### Edge detected image:
   <img width="631" height="355" alt="image" src="https://github.com/user-attachments/assets/bd65719c-87db-4344-a96f-2ba9c22506bc" />
 
-* Smoothed image
+### Smoothed image:
   <img width="607" height="361" alt="image" src="https://github.com/user-attachments/assets/4378f25e-6852-4c58-a6d7-d36534078aa5" />
 
-* Detected lines
+### Detected lines:
   <img width="1250" height="721" alt="image" src="https://github.com/user-attachments/assets/0fa2d041-87da-412d-b1f1-10c6b7b2b275" />
 
 
